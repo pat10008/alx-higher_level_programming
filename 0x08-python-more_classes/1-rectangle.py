@@ -2,6 +2,11 @@
 """A class that defines a rectangle"""
 
 class Rectangle:
+    """
+     Private instance attribute: width (int)
+    Private instance attribute: height (int)
+    Instantiation with optional width and height
+    """
     __width = None
     __height = None
 
