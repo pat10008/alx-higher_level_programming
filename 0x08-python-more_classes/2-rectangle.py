@@ -1,5 +1,11 @@
 #!/usr/bin/python3
+"""
+A class Rectanle that defines a rectangle
+"""
 class Rectangle:
+    """
+    A class Rectanle that defines a rectangle
+    """
     __width = None
     __height = None
     area = 0
@@ -39,6 +45,9 @@ class Rectangle:
         return (self.__width * self.__height)
 
     def perimeter(self):
+        """
+        Returns a rectangle's perimeter
+        """
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
