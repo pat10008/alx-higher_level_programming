@@ -12,6 +12,9 @@ class Rectangle:
     __height = None
 
     def __init__(self, width=0, height=0):
+        """
+        Initializes private attribute width and height
+        """
         self.__width = width
         self.__height = height
 
