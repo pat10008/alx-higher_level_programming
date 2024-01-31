@@ -3,7 +3,8 @@
 
 class Rectangle:
     """
-     Private instance attribute: width (int)
+    Rectangle that defines a rectangle by:
+    Private instance attribute: width (int)
     Private instance attribute: height (int)
     Instantiation with optional width and height
     """
